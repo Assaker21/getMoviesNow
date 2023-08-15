@@ -1,0 +1,214 @@
+.header {
+  margin: 0;
+  padding: 0px 20px;
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  white-space: nowrap;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.search-input {
+  flex-grow: 1;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 20px;
+  border: none;
+  font-size: 18px;
+  font-family: var(--main-font);
+  background-color: whitesmoke;
+}
+
+.search-input:focus {
+  background-color: rgb(228, 228, 228);
+  outline: none;
+}
+
+.search-button {
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 20px;
+  border: none;
+  font-size: 18px;
+  font-family: var(--main-font);
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.search-button:hover {
+  color: white;
+  background-color: rgb(41, 41, 41);
+}
+
+@media (max-width: 740px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+  }
+
+  .search-input {
+    font-size: 16px;
+  }
+
+  .search-button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 670px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .search-input {
+    font-size: 14px;
+  }
+
+  .search-button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .search-input {
+    font-size: 12px;
+    height: 30px;
+  }
+
+  .search-button {
+    font-size: 12px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 525px) {
+  .title {
+    font-size: 16px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .search-input {
+    font-size: 10px;
+    height: 30px;
+  }
+
+  .search-button {
+    font-size: 10px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 455px) {
+  .title {
+    font-size: 16px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .search-input {
+    font-size: 10px;
+    height: 30px;
+  }
+
+  .search-button {
+    font-size: 10px;
+    height: 30px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .title {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .subtitle {
+    font-size: 12px;
+  }
+
+  .search-input {
+    font-size: 10px;
+    height: 30px;
+  }
+
+  .search-button {
+    font-size: 10px;
+    height: 30px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 370px) {
+  .title {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .subtitle {
+    font-size: 10px;
+  }
+
+  .search-input {
+    font-size: 8px;
+    height: 30px;
+  }
+
+  .search-button {
+    font-size: 8px;
+    height: 30px;
+    margin-left: 2px;
+  }
+}
+
+@media (max-width: 320px) {
+  .title {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .subtitle {
+    font-size: 10px;
+  }
+
+  .search-input {
+    font-size: 8px;
+    height: 30px;
+    min-width: 0;
+  }
+
+  .search-button {
+    font-size: 8px;
+    height: 30px;
+    margin-left: 2px;
+  }
+}

@@ -1,0 +1,142 @@
+.subtitle {
+  padding: 0 20px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.movies-container {
+  width: calc(100% - 40px);
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  justify-content: center;
+  place-items: center;
+}
+
+.movie-item {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.movie-image {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.movie-open {
+  width: 100%;
+  height: 100px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  padding: 10px 20px;
+  border-radius: 0px 0px 20px 20px;
+  border: none;
+  outline: none;
+  font-family: var(--main-font);
+  background-color: whitesmoke;
+}
+
+@media (max-width: 1120px) {
+  .movies-container {
+    grid-template-columns: 200px 200px 200px 200px;
+  }
+}
+
+@media (max-width: 900px) {
+  .movies-container {
+    grid-template-columns: 200px 200px 200px;
+  }
+}
+
+@media (max-width: 680px) {
+  .movies-container {
+    grid-template-columns: 200px 200px;
+  }
+}
+
+@media (max-width: 460px) {
+  .movies-container {
+    grid-template-columns: 200px;
+  }
+}
+
+.page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.page-button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+  color: black;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.page-button:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+.page-button.deselected {
+  display: none;
+}
+
+@media (max-width: 740px) {
+  .subtitle {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 670px) {
+  .subtitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 525px) {
+  .subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 455px) {
+  .subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .subtitle {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 370px) {
+  .subtitle {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .subtitle {
+    font-size: 10px;
+  }
+}
